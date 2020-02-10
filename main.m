@@ -1,0 +1,10 @@
+clear;close all;
+load data s h const oil;
+s.Vdmax=440;
+s.samax=18;
+h.nmin=1000;
+h.nmax=3000;
+h.pmin=100;
+h.pmax=700;
+printFit;
+printEffMap(s,h,oil,const);
